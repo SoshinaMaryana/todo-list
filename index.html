@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box Model</title>
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+<body>
+	<div class="content">
+		<form action="" id="form" class="form">
+			<input type="text" placeholder="Enter your task..." id="input" class="form__input">
+			<button id="add" disabled class="btn">Add</button>
+		</form>
+		<div class="list">
+			<div class="list__item">
+				<h2 class="title">Todos</h2>
+				<ul id="todos"></ul>
+			</div>
+		
+			<div class="list__item">
+				<h2 class="title">Completed</h2>
+				<ul id="completed"></ul>
+			</div>
+		</div>
+		<button id="clear" class="clear">Clear all</button>
+	</div>
+	<script src='js/scripts.js'></script>
+</body>
+</html>
